@@ -1,4 +1,5 @@
 #financie instalacia/reset.py
+#program vytvorí súbor s nižšie uvedenými údajmi, prípadne resetuje doterajší súbor
 import os
 file = open("financie","w")
 file.write("0.05\n0\n")
